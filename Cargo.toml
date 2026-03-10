@@ -4,6 +4,9 @@ members = [
     "crates/verity-kernel",
     "crates/verity-outcomes",
     "crates/verity-integrity",
+    "crates/verity-finality",
+    "crates/verity-ledgers",
+    "crates/verity-tests",
 ]
 
 [workspace.package]

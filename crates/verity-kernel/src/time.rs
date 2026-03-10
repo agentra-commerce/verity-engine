@@ -32,6 +32,19 @@ impl CanonicalTimestamp {
     pub fn inner(&self) -> &DateTime<Utc> {
         &self.0
     }
+
+    pub fn add_days(&self, days: i64) -> Self {
+        Self(self.0 + chrono::Duration::days(days))
+    }
+
+    pub fn add_minutes(&self, minutes: i64) -> Self {
+        Self(self.0 + chrono::Duration::minutes(minutes))
+    }
+
+    /// Returns true if self is before other
+    pub fn is_before(&self, other: &CanonicalTimestamp) -> bool {
+        self.0 < other.0
+    }
 }
 
 impl Serialize for CanonicalTimestamp {

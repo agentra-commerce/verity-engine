@@ -35,4 +35,10 @@ pub enum VerityError {
 
     #[error("Signature error: {0}")]
     SignatureError(String),
+
+    #[error("Finality error: {0}")]
+    FinalityError(String),
+
+    #[error("Ledger error: {0}")]
+    LedgerError(String),
 }

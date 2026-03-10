@@ -1,0 +1,14 @@
+[package]
+name = "verity-finality"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Finality and reversibility tracking for the Verity truth engine"
+
+[dependencies]
+verity-kernel = { path = "../verity-kernel" }
+verity-outcomes = { path = "../verity-outcomes" }
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true

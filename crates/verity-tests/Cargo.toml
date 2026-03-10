@@ -1,0 +1,16 @@
+[package]
+name = "verity-tests"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Integration and property tests for the Verity truth engine"
+
+[dependencies]
+verity-kernel = { path = "../verity-kernel" }
+verity-outcomes = { path = "../verity-outcomes" }
+verity-integrity = { path = "../verity-integrity" }
+verity-finality = { path = "../verity-finality" }
+verity-ledgers = { path = "../verity-ledgers" }
+serde.workspace = true
+serde_json.workspace = true
