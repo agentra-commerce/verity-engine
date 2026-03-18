@@ -2,10 +2,9 @@
 
 **The open-source truth engine for XAP. Deterministic decision provenance and replay.**
 
-[![CI](https://github.com/agentra-commerce/verity-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/agentra-commerce/verity-engine/actions)
-[![Crates.io](https://img.shields.io/crates/v/verity-kernel)](https://crates.io/crates/verity-kernel)
 [![Tests: 103 passing](https://img.shields.io/badge/Tests-103%20passing-brightgreen.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Rust](https://img.shields.io/badge/Rust-stable-orange.svg)](https://www.rust-lang.org/)
 [![Patent Pending](https://img.shields.io/badge/Patent-Pending-blue.svg)](#)
 [![Maintained by: Agentra Labs](https://img.shields.io/badge/Maintained%20by-Agentra%20Labs-blue.svg)](https://www.agentralabs.tech)
 
